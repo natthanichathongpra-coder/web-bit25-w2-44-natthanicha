@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -32,8 +33,19 @@
         </form> -->
         <form action="result.php" method="post">
 
-        <label></label>
-
+       <div class="form-input">
+            <label >ด้านหน้า</label>
+            <input type="number" placeholder="กรอกด้านหน้า" name="dan">
+       </div>
+       <div class="form-input">
+            <label >ด้านหน้า</label>
+             <input type="number" placeholder="กรอกด้านหลัง" name="lang">
+       </div>
+       <div class="form-input">
+            <label >ด้านหน้า</label>
+            <input type="number" placeholder="กรอกความสูง" name="height">
+        </div>
+        <button type="submit">ส่งค่า</button>
         </form>
            
 </body>
