@@ -42,7 +42,7 @@
              <input type="number" placeholder="กรอกด้านหลัง" name="back">
        </div>
        <div class="form-input">
-            <label >สูง</label>
+            <label >ความสูง</label>
             <input type="number" placeholder="กรอกความสูง" name="height">
         </div>
         <button type="submit">ส่งค่า</button>
