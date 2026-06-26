@@ -9,21 +9,21 @@
 <body>
     
     <?php
-        $dan = $_POST['dan'];
-        $lang = $_POST['lang'];
+        $front = $_POST['front'];
+        $back = $_POST['back'];
         $height = $_POST['height'];
         
-       $total = ($dan + $lang)/2 * $height  
+       $total = ($front + $back)/2 * $height  
        
        ?> 
        <div class="card">
             <div class="result-item">
-                    <span class="dan-text">ด้านหน้า</span>
-                    <span class="value-dan"><?php echo $dan?></span>
+                    <span class="front-text">ด้านหน้า</span>
+                    <span class="value-front"><?php echo $front?></span>
             </div>
             <div class="result-item">
-                    <span class="lang-text">ด้านหลัง</span>
-                    <span class="value-lang"><?php echo $lang?></span>
+                    <span class="back-text">ด้านหลัง</span>
+                    <span class="value-back"><?php echo $back?></span>
             </div>
             <div class="result-item">
                     <span class="height-text">ความสูง</span>

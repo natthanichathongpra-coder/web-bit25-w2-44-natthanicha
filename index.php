@@ -35,14 +35,14 @@
 
        <div class="form-input">
             <label >ด้านหน้า</label>
-            <input type="number" placeholder="กรอกด้านหน้า" name="dan">
+            <input type="number" placeholder="กรอกด้านหน้า" name="front">
        </div>
        <div class="form-input">
-            <label >ด้านหน้า</label>
-             <input type="number" placeholder="กรอกด้านหลัง" name="lang">
+            <label >ด้านหลัง</label>
+             <input type="number" placeholder="กรอกด้านหลัง" name="back">
        </div>
        <div class="form-input">
-            <label >ด้านหน้า</label>
+            <label >สูง</label>
             <input type="number" placeholder="กรอกความสูง" name="height">
         </div>
         <button type="submit">ส่งค่า</button>
